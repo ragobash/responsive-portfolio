@@ -1,0 +1,118 @@
+#info {
+  background: #ffffff;
+  width:960px;
+  height: 960px;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 20px;
+  border: 15px #dddddd;
+  color: #777777;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  text-size-adjust: 50px;
+  width: 75px;
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #3c8a86;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#about-me {
+  color: #4aaaa5;
+  text-align: center;
+}
+#logo{
+  width: 200px
+}
+@media only screen and (max-width: 980px) {
+  .navcontainer {
+    max-width: 980px;
+  }
+  #info {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    color: #777777;
+    font-family: georgia;
+    width: auto;
+  }
+  .topnav a {
+    float: right;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navcontainer {
+    max-width: 768px;
+  }
+    #info {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    color: #777777;
+    font-family: georgia;
+    width: auto;
+    }
+  .topnav a {
+    float: right;
+  }
+}
+@media only screen and (max-width: 640px) {
+  #info {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    color: #777777;
+    font-family: georgia;
+    width: auto;
+  }
+  #logo {
+    width: 100%
+  }
+  #about-me {
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+  }
+
+  p {
+    text-align: center;
+  }
+  .container {
+    width: auto;
+  }
+
+  form {
+    width: auto;
+  }
+  .topnav a {
+    float: inherit;
+  }
+}
